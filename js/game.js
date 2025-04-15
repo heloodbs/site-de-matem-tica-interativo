@@ -59,7 +59,7 @@ function verificarResposta() {
         document.getElementById("resultado").innerText = "✅ Resposta Correta!";
         pontuacao += 10;
     } else {
-        document.getElementById("resultado").innerText = ❌ Errado! A resposta era ${respostaCorreta};
+        document.getElementById("resultado").innerText = ' ❌ Errado! A resposta era ${respostaCorreta}';
         pontuacao -= 5;
     }
 
