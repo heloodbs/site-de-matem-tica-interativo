@@ -14,7 +14,7 @@ function iniciarJogo(modo) {
 function novaPergunta() {
     const numeros = gerarNumeros(modoAtual);
     const operacao = escolherOperacao();
-    const perguntaTexto = ${numeros.num1} ${operacao} ${numeros.num2};
+    const perguntaTexto = '${numeros.num1} ${operacao} ${numeros.num2}';
 
     respostaCorreta = calcularResposta(numeros.num1, numeros.num2, operacao);
 
